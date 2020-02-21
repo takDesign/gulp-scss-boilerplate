@@ -1,0 +1,29 @@
+@mixin body-font {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+@mixin heading-font {
+  @font-face {
+    font-family: objective;
+    src: url(fonts/Objective-Super.woff2);
+  }
+}
+
+@mixin sub-heading-font {
+  font-family: gill-sans-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@mixin inline-font-light {
+  font-family: gill-sans-nova-inline, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@mixin inline-font-regular {
+  font-family: gill-sans-nova-inline, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
